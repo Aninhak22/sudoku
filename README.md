@@ -1,12 +1,6 @@
 #sudoku
 
-#Preencha um tabuleiro 9x9 com os números de 1 a 9 de forma que nenhuma linha, coluna ou quadrante tenha o mesmo número duas vezes
-
-from multiprocessing.resource_sharer import stop
-from pickle import APPEND
-import random
-#from readline import append_history_file
-
+#tabuleiro
 
 board = [
     ['0', '0', '0', '0', '0', '0', '0', '0', '0'],
